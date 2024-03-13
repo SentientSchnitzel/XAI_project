@@ -1,4 +1,10 @@
-# Concept Bottleneck Models
+# Explainable AI project 
+[Project Description](https://docs.google.com/document/d/12DS-Xf361NL-_5QrEJGnx2suSJ1ZaB-hVje6rwk0oL8/edit)
+
+
+
+
+# Concept Bottleneck Models 
 
 ![teaser](https://github.com/yewsiang/ConceptBottleneck/blob/master/figures/teaser_landscape.png)
 
@@ -11,12 +17,9 @@ This repository contains code and scripts for the following paper:
 > ICML 2020
 
 The experiments use the following datasets:
-- [NIH Osteoarthritis Initiative (OAI)](https://nda.nih.gov/oai/)
-- [Caltech-UCSD Birds 200 (CUB)](http://www.vision.caltech.edu/visipedia/CUB-200.html)
+- [Caltech-UCSD Birds 200 (CUB)](https://www.vision.caltech.edu/datasets/cub_200_2011/)
 
 To download the TravelingBirds dataset, which we use to test robustness to background shifts, please download the `CUB_fixed` folder from this [CodaLab bundle](https://worksheets.codalab.org/bundles/0x518829de2aa440c79cd9d75ef6669f27) by clicking on the download button. If you use this dataset, please also cite the original CUB and Places datasets.
-
-The NIH Osteoarthritis Initiative (OAI) dataset requires an application for data access, so we are unable to provide the raw data here. To access that data, please first obtain data access permission from the [Osteoarthritis Initiative](https://nda.nih.gov/oai/), and then refer to this [Github repository](https://github.com/epierson9/pain-disparities) for data processing code. If you use it, please cite the Pierson et al. paper corresponding to that repository as well.
 
 Here, we focus on scripts replicating our results on CUB, which is public. We provide an executable, Dockerized version of those experiments on [CodaLab](https://worksheets.codalab.org/worksheets/0x362911581fcd4e048ddfd84f47203fd2).
 
